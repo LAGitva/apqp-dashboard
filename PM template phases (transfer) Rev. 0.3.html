@@ -264,7 +264,7 @@ async function loadData(){
     document.getElementById('kpi-late').textContent=late;
     document.getElementById('kpi-late-sub').textContent=late>0?'Action required':'All on track';
 
-    // Build phase map using Outline_Level=1 rows as phase headers
+    
     phaseMap={};
     let currentPhase='General';
     allTasks.forEach(r=>{
